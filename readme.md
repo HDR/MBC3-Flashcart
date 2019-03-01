@@ -2,6 +2,8 @@
 - Resistors and capacitors are 0603 not 1206 to make the carts cheaper.
 - Y1 is rotated for a better fit.
 
+[Purchase on OSHPARK](https://oshpark.com/shared_projects/DDIty7NY)
+
 ## BOM
 
 | Designator | Package | Value | Description |
@@ -17,3 +19,11 @@
 | U2 | SOIC-8 | BA6129AF | Battery Backup chip |
 | U3 | TSOP-6 | 74LVC1G332GV,125 | 3-input OR gate |
 | B1 | N/A | BK-6219-TR | Coin cell battery retainer |
+
+
+## Images
+
+![Front](front.png)
+
+
+![Back](back.png)
