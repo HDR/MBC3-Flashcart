@@ -10,7 +10,7 @@
 |:--------------:|:--------------:|:----------------:|:--------------------------:|
 | C1,C2,C3,C6,C7 | 0603 | 0.1 uF | SMD Capacitor |
 | C4, C5 | 0603 | 15 pF | SMD Capacitor |
-| M1 | SOIC-28 | 22p | Buy from Aliexpress |
+| M1 | SOIC-28 | FM18W018 | Buy from Aliexpress |
 | R1 | 0603 | 330KΩ | SMD Resistor |
 | R2 | 0603 | 10KΩ | SMD Resistor |
 | R3 | 0603 | 1KΩ | SMD Resistor |
@@ -19,6 +19,7 @@
 | U2 | SOIC-8 | BA6129AF | Battery Backup chip |
 | U3 | TSOP-6 | 74LVC1G332GV,125 | 3-input OR gate |
 | B1 | N/A | BK-6219-TR | Coin cell battery retainer |
+| AM29F1 | TSOP-48 | AM29F016 | Buy from Aliexpress |
 
 
 ## Images
