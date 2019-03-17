@@ -2,7 +2,7 @@
 - Resistors and capacitors are 0603 not 1206 to make the carts cheaper.
 - Added cutout for Y1 like real carts have
 
-[Purchase on OSHPARK](https://oshpark.com/shared_projects/DDIty7NY)
+[Purchase on OSHPARK](https://oshpark.com/shared_projects/BHZky7nH)
 
 ## BOM
 
