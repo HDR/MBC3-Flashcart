@@ -1,25 +1,36 @@
-## Changes from the original
-- Resistors and capacitors are 0603 not 1206 to make the carts cheaper.
-- Added cutout for Y1 like real cartridges have.
+MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components and has added support for 4MB roms
 
-[Purchase on OSHPARK](https://oshpark.com/shared_projects/UFJ9LXIo)
+Order at 0.8mm not 1.6!!!
+
+[Purchase on OSHPARK](https://oshpark.com/shared_projects/pG28QwqN)
 
 ## BOM
 
-| Designator | Package | Value | Description |
-|:--------------:|:--------------:|:----------------:|:--------------------------:|
-| C1,C2,C3,C6,C7 | 0603 | 0.1 uF | SMD Capacitor |
-| C4, C5 | 0603 | 15 pF | SMD Capacitor |
-| M1 | SOIC-28 | FM18W018 | Buy from Aliexpress |
-| R1 | 0603 | 330KΩ | SMD Resistor |
-| R2 | 0603 | 10KΩ | SMD Resistor |
-| R3 | 0603 | 1KΩ | SMD Resistor |
-| Y1 | Case R26 | 32.768 kHz | 2 Pin Crystal |
-| U1 | QFP-32 7x7x0.8 | MBC3 | Get from real a cartridge |
-| U2 | SOIC-8 | BA6129AF | Battery Backup chip |
-| U3 | TSOP-6 | 74LVC1G332GV,125 | 3-input OR gate |
-| B1 | N/A | BK-6219-TR | Coin cell battery retainer |
-| AM29F1 | TSOP-48 | AM29F016 | Buy from Aliexpress |
+| Reference        | Part Number           | Description  |
+| ------------- |:-------------:| -----:|
+| B1 | BK-6219-TR | CR2025 Coin Cell Retainer |
+| C1 | 06033C104KAT4A | 0.1uF Capacitor |
+| C2 | 06033C104KAT4A | 0.1uF Capacitor |
+| C3 | 06033C104KAT4A | 0.1uF Capacitor |
+| C4 | CL10C150JB8NNNC | 15pF Capacitor |
+| C5 | CL10C150JB8NNNC | 15pF Capacitor |
+| C6 | 06033C104KAT4A | 0.1uF Capacitor |
+| C7 | 06033C104KAT4A | 0.1uF Capacitor |
+| FM18W08 | FM18W08 | 256kbit FRAM |
+| R1 | ERJ-PA3J334V | 330K Ω Resistor |
+| R2 | ERJ-PA3J103V | 10K Ω Resistor |
+| R3 | ERJ-PA3J102V | 1K Ω Resistor |
+| MBC3 | MBC3 | Get from real cartridge |
+| U2 | BA6129AF | Buy or get from real cartridge |
+| U3 | 74LVC1G332GV,125 | 3-input OR gate TSOP-6 |
+| AM29F0XX | AM29F016 or AM29F032 | 2MB or 4MB Rom Chip TSOP-48 |
+| Y1 | R26-32.768-12.5-10PPM | R26 12.5pF 32.768 kHz Crystal |
+
+## Changelog:
+
+**1.2:**
+- Fixed missing traces
+
 
 
 ## Images
