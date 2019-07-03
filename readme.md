@@ -2,7 +2,7 @@ MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components and ha
 
 Order at 0.8mm not 1.6!!!
 
-[Purchase on OSHPARK](https://oshpark.com/shared_projects/pG28QwqN)
+[Purchase on OSHPARK](https://oshpark.com/shared_projects/Qqr82n7y)
 
 ## BOM
 
