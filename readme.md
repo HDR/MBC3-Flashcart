@@ -31,6 +31,10 @@ Order at 0.8mm not 1.6!!!
 **1.2:**
 - Fixed missing traces
 
+**1.3:**
+- Fixed some trace issues with Y1
+- Rerouted the pcb entirely
+
 
 
 ## Images
