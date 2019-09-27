@@ -1,6 +1,6 @@
 MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components
 
-If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.com/MrHDR/MBC30-Flashcart
+If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.com/MrHDR/MBC30-Flashcart)
 
 Order at 0.8mm not 1.6!!!
 
