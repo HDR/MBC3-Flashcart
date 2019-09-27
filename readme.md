@@ -1,4 +1,6 @@
-MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components and has added support for 4MB roms
+MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components
+
+If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.com/MrHDR/MBC30-Flashcart
 
 Order at 0.8mm not 1.6!!!
 
@@ -23,7 +25,7 @@ Order at 0.8mm not 1.6!!!
 | MBC3 | MBC3 | Get from real cartridge |
 | U2 | BA6129AF | Buy or get from real cartridge |
 | U3 | 74LVC1G332GV,125 | 3-input OR gate TSOP-6 |
-| AM29F0XX | AM29F016 or AM29F032 | 2MB or 4MB Rom Chip TSOP-48 |
+| AM29F0XX | AM29F016 | TSOP-48 |
 | Y1 | R26-32.768-12.5-10PPM | R26 12.5pF 32.768 kHz Crystal |
 
 ## Changelog:
