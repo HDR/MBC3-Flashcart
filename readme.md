@@ -2,9 +2,30 @@ MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components
 
 If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.com/HDR/MBC30-Flashcart)
 
-Order at 0.8mm not 1.6!!!
+**OSHPark:**
 
 [Purchase on OSHPARK](https://oshpark.com/shared_projects/EnzTOV2u)
+
+Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
+
+
+**JLCPCB:**
+
+Upload gerbers(.zip files) to [JLCPCB](http://jlcpcb.com)
+
+Make sure you order with the following settings:
+
+PCB Thickness: 0.8
+
+PCB Color: Any
+
+Surface Finish: ENIG-RoHS
+
+Gold Fingers: Yes (45° chamfered border)
+
+Castellated Holes: No
+
+
 
 ## BOM
 
