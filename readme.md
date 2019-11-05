@@ -4,7 +4,7 @@ If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.co
 
 **OSHPark:**
 
-[Purchase on OSHPARK](https://oshpark.com/shared_projects/EnzTOV2u)
+[Purchase on OSHPARK](https://oshpark.com/shared_projects/wMkFYoI9)
 
 Make sure to select the "2 oz copper, 0.8mm thickness" option before checkout
 
@@ -60,6 +60,10 @@ Castellated Holes: No
 
 **1.4:**
 - Fixed a short between A16 and VCC
+
+**1.4.1:**
+- Changed AM29F016 footprint to make chip alignment easier
+- Cleaned up traces (visual)
 
 
 ## Images
