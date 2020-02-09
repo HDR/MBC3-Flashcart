@@ -26,6 +26,7 @@ Gold Fingers: Yes (45° chamfered border)
 Castellated Holes: No
 
 
+Check out the [Interactive BOM](https://hdr.github.io/ibom/MBC3-Flashcart) for an interactive website that lets you keep track of where everything goes.
 
 ## BOM
 
