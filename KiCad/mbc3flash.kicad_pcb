@@ -1151,7 +1151,7 @@
   (gr_arc (start 163.82 68.952) (end 164.07 68.952) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_circle (center 127 90.678) (end 127.508 90.932) (layer F.SilkS) (width 0.2) (tstamp 5CDF1FA0))
   (gr_line (start 117.389992 72.6) (end 167.88 72.6) (layer F.SilkS) (width 0.2) (tstamp 5D573EA1))
-  (gr_text "Rev 1.4.2" (at 157.934 70.612) (layer B.Mask)
+  (gr_text "Rev 1.4.1" (at 157.934 70.612) (layer B.Mask)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_circle (center 118.11 101.854) (end 118.364 101.854) (layer F.SilkS) (width 0.2))
