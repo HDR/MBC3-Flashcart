@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name am29f016)(type Legacy)(uri ${KIPRJMOD}/libs/am29f016.lib)(options "")(descr ""))
+  (lib (name mbc3)(type Legacy)(uri ${KIPRJMOD}/libs/mbc3.lib)(options "")(descr ""))
+  (lib (name cartbus)(type Legacy)(uri ${KIPRJMOD}/libs/cartbus.lib)(options "")(descr ""))
+  (lib (name fm18w08)(type Legacy)(uri ${KIPRJMOD}/libs/fm18w08.lib)(options "")(descr ""))
+)
