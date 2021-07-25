@@ -73,3 +73,6 @@ Check out the [Interactive BOM](https://hdr.github.io/ibom/MBC3-Flashcart) for a
 
 
 ![Back](back.png)
+
+
+Makes use of [djedditt's](https://github.com/djedditt/) [cartridge connector footprint](https://github.com/djedditt/kicad-gamepaks) (with some slight modifications)
