@@ -2,6 +2,8 @@ MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components (while
 
 If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.com/HDR/MBC30-Flashcart)
 
+Version 1.5 and beyond makes use of [djedditt's](https://github.com/djedditt/) [cartridge connector footprint](https://github.com/djedditt/kicad-gamepaks)
+
 **OSHPark:**
 
 [Purchase on OSHPARK](https://oshpark.com/shared_projects/wMkFYoI9)
@@ -74,5 +76,3 @@ Check out the [Interactive BOM](https://hdr.github.io/ibom/MBC3-Flashcart) for a
 
 ![Back](back.png)
 
-
-Makes use of [djedditt's](https://github.com/djedditt/) [cartridge connector footprint](https://github.com/djedditt/kicad-gamepaks)
