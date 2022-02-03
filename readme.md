@@ -94,8 +94,8 @@ Check out the [Interactive BOM](https://hdr.github.io/ibom/MBC3-Flashcart) for a
 
 ## Images
 
-![Front](front.png)
+![Front](/assets/Front.png)
 
 
-![Back](back.png)
+![Back](/assets/Back.png)
 
