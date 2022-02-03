@@ -6,7 +6,7 @@ Version 1.5 and beyond makes use of [djedditt's](https://github.com/djedditt/) [
 
 **PCBWay:**
 
-[![Purchase on PCBWay](/assets/purchase-on-pcbway.png)]
+[![Purchase on PCBWay](/assets/purchase-on-pcbway.png)](https://www.pcbway.com/project/shareproject/MBC3_Flashcart___2x2MB___FRAM___RTC___Beta_Release__Untested_.html)
 
 As a disclaimer, i get 10% kickback on shared pcbway orders, if you want the cheaper option go with either JLCPCB or OshPark
 
