@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Gameboy:BA6129AF U2
+L Gameboy:BA6129AF U4
 U 1 1 5BCB659F
 P 975 4725
-F 0 "U2" H 1025 4925 50  0000 R CNN
+F 0 "U4" H 1025 4925 50  0000 R CNN
 F 1 "BA6129AF" H 1150 4425 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 975 4725 50  0001 C CNN
 F 3 "" H 975 4725 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 975 4725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Gameboy:74LVC1G332GW,125 U3
+L Gameboy:74LVC1G332GW,125 U5
 U 1 1 5BCB6CA8
 P 800 1475
-F 0 "U3" H 875 1525 50  0000 R CNN
+F 0 "U5" H 875 1525 50  0000 R CNN
 F 1 "74LVC1G332GW,125" H 1150 1025 50  0000 R CNN
 F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 500 1475 50  0001 C CNN
 F 3 "" H 500 1475 50  0001 C CNN
@@ -41,7 +41,7 @@ U 1 1 5BCBB1ED
 P 1375 6050
 F 0 "U0" H 2325 5678 50  0000 C CNN
 F 1 "CartBus" H 2325 5587 50  0000 C CNN
-F 2 "NintendoFootprints:CartBus" H 1375 6050 50  0001 C CNN
+F 2 "Connector_GameBoy:GameBoy_GamePak_CGB-002_P1.50mm_Edge" H 1375 6050 50  0001 C CNN
 F 3 "" H 1375 6050 50  0001 C CNN
 	1    1375 6050
 	1    0    0    -1  
@@ -166,17 +166,6 @@ F 3 "~" H 4525 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5BE8189D
-P 4625 2875
-F 0 "R2" V 4475 2875 50  0000 C CNN
-F 1 "10 Kohm" V 4550 2875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 2875 50  0001 C CNN
-F 3 "~" H 4625 2875 50  0001 C CNN
-	1    4625 2875
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 5BE91543
 P 4625 3150
@@ -205,40 +194,16 @@ F 3 "" H 6700 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell B1
-U 1 1 5BF06F96
-P 1625 4850
-F 0 "B1" V 1775 4900 50  0000 C CNN
-F 1 "Battery_Cell" V 1461 4900 50  0001 C CNN
-F 2 "Custom:BK-6219-TR" V 1625 4910 50  0001 C CNN
-F 3 "~" V 1625 4910 50  0001 C CNN
-	1    1625 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5BF29C9C
-P 1550 4375
-F 0 "#PWR0106" H 1550 4125 50  0001 C CNN
-F 1 "GND" H 1555 4202 50  0000 C CNN
-F 2 "" H 1550 4375 50  0001 C CNN
-F 3 "" H 1550 4375 50  0001 C CNN
-	1    1550 4375
+P 1500 4125
+F 0 "#PWR0106" H 1500 3875 50  0001 C CNN
+F 1 "GND" H 1505 3952 50  0000 C CNN
+F 2 "" H 1500 4125 50  0001 C CNN
+F 3 "" H 1500 4125 50  0001 C CNN
+	1    1500 4125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	875  5125 875  5225
-Wire Wire Line
-	875  5225 1250 5225
-Wire Wire Line
-	1250 5225 1250 4375
-Wire Wire Line
-	1250 4375 1550 4375
-Wire Wire Line
-	1725 4375 1550 4375
-Wire Wire Line
-	1725 4375 1725 4850
-Connection ~ 1550 4375
 $Comp
 L Device:R R3
 U 1 1 5BF73377
@@ -251,28 +216,13 @@ F 3 "~" H 1425 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1425 4850 1425 5025
-Wire Wire Line
-	1425 5025 1575 5025
-Wire Wire Line
-	1575 5025 1575 5150
-Wire Wire Line
 	1275 5150 1175 5150
 Wire Wire Line
 	1175 5150 1175 5125
 NoConn ~ 5400 1950
-NoConn ~ 6700 2950
-NoConn ~ 6700 3050
-NoConn ~ 5400 2950
-NoConn ~ 5400 3050
-NoConn ~ 5400 750 
-NoConn ~ 5400 850 
-NoConn ~ 6700 750 
-NoConn ~ 6700 850 
 NoConn ~ 6700 1350
 NoConn ~ 1175 4325
 NoConn ~ 975  4325
-NoConn ~ 3775 5950
 $Comp
 L power:GND #PWR0105
 U 1 1 5D34C2A3
@@ -324,15 +274,13 @@ Text GLabel 3100 2775 3    50   Input ~ 0
 \WR
 Text GLabel 3450 3625 2    50   Input ~ 0
 \WR
-Text GLabel 6700 1150 2    50   Input ~ 0
-\WR
 Text GLabel 975  5950 1    50   Input ~ 0
 \WR
 $Comp
-L Gameboy:MBC3 U1
+L Gameboy:MBC3 U2
 U 1 1 5BE982D2
 P 2450 1575
-F 0 "U1" H 1950 600 50  0000 L CNN
+F 0 "U2" H 1950 600 50  0000 L CNN
 F 1 "MBC3" H 1875 500 50  0000 L CNN
 F 2 "NintendoFootprints:MBC3" H 1850 1475 50  0001 C CNN
 F 3 "" H 1850 1475 50  0001 C CNN
@@ -626,7 +574,7 @@ L power:GND #PWR0109
 U 1 1 5DF37A92
 P 3875 5950
 F 0 "#PWR0109" H 3875 5700 50  0001 C CNN
-F 1 "GND" H 3880 5777 50  0000 C CNN
+F 1 "GND" V 3875 5750 50  0000 C CNN
 F 2 "" H 3875 5950 50  0001 C CNN
 F 3 "" H 3875 5950 50  0001 C CNN
 	1    3875 5950
@@ -687,17 +635,6 @@ Battery Backup Circuit
 Wire Wire Line
 	3025 950  3025 1225
 $Comp
-L custom:AM29F016 U4
-U 1 1 5D1B622C
-P 6000 650
-F 0 "U4" H 6050 775 50  0000 C CNN
-F 1 "AM29F016" H 6050 684 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 6050 350 50  0001 C CNN
-F 3 "" H 6050 350 50  0001 C CNN
-	1    6000 650 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C6
 U 1 1 5BCBDA23
 P 2875 950
@@ -708,16 +645,165 @@ F 3 "~" H 2875 950 50  0001 C CNN
 	1    2875 950 
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 6700 1050
 $Comp
-L Gameboy:FM18W08 M1
+L Gameboy:FM18W08 U3
 U 1 1 5BCB6AB8
 P 3050 4575
-F 0 "M1" H 3050 4750 50  0000 C CNN
+F 0 "U3" H 3050 4750 50  0000 C CNN
 F 1 "FM18W08" H 3050 3600 50  0000 C CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 2350 4675 50  0001 C CNN
 F 3 "" H 2350 4675 50  0001 C CNN
 	1    3050 4575
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 60A2FD31
+P 7250 1050
+F 0 "SW1" H 7250 1335 50  0000 C CNN
+F 1 "SW_SPDT" H 7250 1244 50  0000 C CNN
+F 2 "Custom:SW_SPDT-K3-1296S-E1" H 7250 1050 50  0001 C CNN
+F 3 "~" H 7250 1050 50  0001 C CNN
+	1    7250 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1050 7050 1050
+$Comp
+L power:GND #PWR0112
+U 1 1 60A38BD1
+P 7450 950
+F 0 "#PWR0112" H 7450 700 50  0001 C CNN
+F 1 "GND" H 7455 777 50  0000 C CNN
+F 2 "" H 7450 950 50  0001 C CNN
+F 3 "" H 7450 950 50  0001 C CNN
+	1    7450 950 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7450 1150 2    50   Input ~ 0
+VCC
+Text GLabel 3775 5950 1    50   Input ~ 0
+WE_AUD
+Text GLabel 6700 1150 2    50   Input ~ 0
+WE_AUD
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60BE81D8
+P 6200 4075
+F 0 "TP1" V 6154 4263 50  0000 L CNN
+F 1 "RTC_VOUT" V 6245 4263 50  0000 L CNN
+F 2 "Custom:GameBoy_Testpoint" H 6400 4075 50  0001 C CNN
+F 3 "~" H 6400 4075 50  0001 C CNN
+	1    6200 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60BE9406
+P 6200 4250
+F 0 "TP2" V 6154 4438 50  0000 L CNN
+F 1 "Battery_Positive_After_Resistor" V 6245 4438 50  0000 L CNN
+F 2 "Custom:GameBoy_Testpoint" H 6400 4250 50  0001 C CNN
+F 3 "~" H 6400 4250 50  0001 C CNN
+	1    6200 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60BEA052
+P 6200 4425
+F 0 "TP3" V 6154 4613 50  0000 L CNN
+F 1 "Battery_Positive" V 6245 4613 50  0000 L CNN
+F 2 "Custom:GameBoy_Testpoint" H 6400 4425 50  0001 C CNN
+F 3 "~" H 6400 4425 50  0001 C CNN
+	1    6200 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 60BEA058
+P 6200 4600
+F 0 "TP4" V 6154 4788 50  0000 L CNN
+F 1 "Ground" V 6245 4788 50  0000 L CNN
+F 2 "Custom:GameBoy_Testpoint" H 6400 4600 50  0001 C CNN
+F 3 "~" H 6400 4600 50  0001 C CNN
+	1    6200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 60BEB306
+P 6200 4600
+F 0 "#PWR0113" H 6200 4350 50  0001 C CNN
+F 1 "GND" V 6200 4400 50  0000 C CNN
+F 2 "" H 6200 4600 50  0001 C CNN
+F 3 "" H 6200 4600 50  0001 C CNN
+	1    6200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BE8189D
+P 4625 2875
+F 0 "R2" V 4475 2875 50  0000 C CNN
+F 1 "10 Kohm" V 4550 2875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 2875 50  0001 C CNN
+F 3 "~" H 4625 2875 50  0001 C CNN
+	1    4625 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L custom:AM29F016 U1
+U 1 1 5D1B622C
+P 6000 650
+F 0 "U1" H 6050 775 50  0000 C CNN
+F 1 "AM29F016" H 6050 684 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 6050 350 50  0001 C CNN
+F 3 "" H 6050 350 50  0001 C CNN
+	1    6000 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell B1
+U 1 1 5BF06F96
+P 1725 4625
+F 0 "B1" H 1550 4675 50  0000 C CNN
+F 1 "Battery_Cell" V 1561 4675 50  0001 C CNN
+F 2 "Custom:BK-6219-TR" V 1725 4685 50  0001 C CNN
+F 3 "~" V 1725 4685 50  0001 C CNN
+	1    1725 4625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1575 5150 1725 5150
+Wire Wire Line
+	1725 5150 1725 4825
+Text GLabel 1750 5150 2    50   Input ~ 0
+BT+
+Wire Wire Line
+	1725 5150 1750 5150
+Connection ~ 1725 5150
+Text GLabel 6200 4425 0    50   Input ~ 0
+BT+
+Wire Wire Line
+	875  5350 650  5350
+Wire Wire Line
+	650  5350 650  4075
+Wire Wire Line
+	650  4075 1500 4075
+Wire Wire Line
+	875  5125 875  5350
+Wire Wire Line
+	1725 4075 1725 4525
+Wire Wire Line
+	1500 4125 1500 4075
+Connection ~ 1500 4075
+Wire Wire Line
+	1500 4075 1725 4075
+Text GLabel 1175 5150 3    50   Input ~ 0
+Vbatt
+Text GLabel 6200 4250 0    50   Input ~ 0
+Vbatt
+Text GLabel 6200 4075 0    50   Input ~ 0
+PWR
 $EndSCHEMATC

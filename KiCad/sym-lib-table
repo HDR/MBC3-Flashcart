@@ -5,4 +5,5 @@
   (lib (name fm18w08)(type Legacy)(uri ${KIPRJMOD}/libs/fm18w08.lib)(options "")(descr ""))
   (lib (name ba6129af)(type Legacy)(uri ${KIPRJMOD}/libs/ba6129af.lib)(options "")(descr ""))
   (lib (name 74lvc1g332gw,125)(type Legacy)(uri ${KIPRJMOD}/libs/74lvc1g332gw,125.lib)(options "")(descr ""))
+  (lib (name mbc3flash-rescue)(type Legacy)(uri ${KIPRJMOD}/mbc3flash-rescue.lib)(options "")(descr ""))
 )
