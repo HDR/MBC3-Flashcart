@@ -1,3 +1,5 @@
+# Make sure you read the [LICENSE](https://github.com/HDR/MBC3-Flashcart/blob/master/LICENSE)
+
 MBC3 Flashcart based on retroreboot's cartridge that uses 0603 components (while based on the RetroReboot carts, these are completely redesigned from the ground up in kicad)
 
 If you want a 4MB cart check out my new [MBC30 flashcart repo](https://github.com/HDR/MBC30-Flashcart)
